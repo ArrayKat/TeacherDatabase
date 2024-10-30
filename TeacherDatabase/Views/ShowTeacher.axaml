@@ -1,0 +1,101 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="TeacherDatabase.ShowTeacher"
+				xmlns:vm="using:TeacherDatabase.ViewModels"
+			    x:DataType="vm:ShowTeacherVM" >
+
+	<ListBox ItemsSource="{Binding TeacherList}" SelectionMode="Multiple">
+		<ListBox.ItemTemplate>
+			<DataTemplate>
+				<Border BorderBrush="Brown" BorderThickness="2">
+
+
+					<Grid Margin="15">
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="*"/>
+							<!-- Первая колонка для личной информации -->
+							<ColumnDefinition Width="2*"/>
+							<!-- Вторая колонка для курсов и предметов -->
+						</Grid.ColumnDefinitions>
+
+						<!-- Личная информация -->
+						<StackPanel Grid.Column="0" Orientation="Vertical">
+							<TextBlock Text="Личная информация:" Foreground="Brown"/>
+							<TextBlock Text="{Binding FIO}"/>
+							<StackPanel Orientation="Horizontal">
+								<TextBlock Text="Пол: "/>
+								<TextBlock Text="{Binding Gender.Gender1}"/>
+							</StackPanel>
+							<StackPanel Orientation="Horizontal">
+								<TextBlock Text="Дата рождения: "/>
+								<TextBlock Text="{Binding BirthDate}"/>
+								<TextBlock Text=" года"/>
+							</StackPanel>
+							<StackPanel Orientation="Horizontal">
+								<TextBlock Text="Стаж работы: "/>
+								<TextBlock Text="{Binding ExperienceTeacher}"/>
+							</StackPanel>
+
+							<TextBlock Text="Контактная информация:" Foreground="Brown"/>
+							<StackPanel Orientation="Horizontal">
+								<TextBlock Text="Почта: "/>
+								<TextBlock Text="{Binding Email}"/>
+							</StackPanel>
+							<StackPanel Orientation="Horizontal">
+								<TextBlock Text="Телефон: "/>
+								<TextBlock Text="{Binding Phone}"/>
+							</StackPanel>
+						</StackPanel>
+
+						<!-- Курсы и предметы -->
+						<StackPanel Grid.Column="1" Orientation="Vertical" >
+							
+							<StackPanel Orientation="Vertical">
+								<StackPanel Orientation="Horizontal">
+									<TextBlock Text="Курсы в общем объеме " Foreground="Brown"/>
+									<TextBlock Text="{Binding TotalHours}" Foreground="Brown"/>
+									<TextBlock Text=" часов:" Foreground="Brown"/>
+								</StackPanel>
+								
+								
+								<ItemsRepeater Margin="10,0,0,0" ItemsSource="{Binding TeachersCourses}">
+									<ItemsRepeater.ItemTemplate>
+										<DataTemplate>
+											<StackPanel Orientation="Horizontal">
+												<TextBlock Text=" - "/>
+												<TextBlock Text="{Binding Course.CourseName}"/>
+											</StackPanel>
+										</DataTemplate>
+									</ItemsRepeater.ItemTemplate>
+								</ItemsRepeater>
+							</StackPanel>
+
+							
+							<StackPanel Orientation="Vertical">
+								<TextBlock Text="Преподаваемые предметы: " Foreground="Brown"/>
+
+								<ItemsRepeater Margin="10,0,0,0" ItemsSource="{Binding TeachersSubjects}">
+									<ItemsRepeater.ItemTemplate>
+										<DataTemplate>
+											<StackPanel Orientation="Horizontal">
+												<TextBlock Text=" - "/>
+												<TextBlock Text="{Binding Subject.SubjectName}"/>
+											</StackPanel>
+										</DataTemplate>
+									</ItemsRepeater.ItemTemplate>
+								</ItemsRepeater>
+							</StackPanel>
+						</StackPanel>
+					</Grid>
+				</Border>
+			</DataTemplate>
+		</ListBox.ItemTemplate>
+		
+	</ListBox>
+	
+	
+	
+</UserControl>
