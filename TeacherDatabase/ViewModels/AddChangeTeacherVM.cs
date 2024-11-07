@@ -25,14 +25,17 @@ namespace TeacherDatabase.ViewModels
         public List<Gender> Gender => MainWindowViewModel.myConnection.Genders.ToList();
         public List<Subject> Subjects => MainWindowViewModel.myConnection.Subjects.ToList();
 
+        
 
-
+        string _nameButton;
+        public string NameButton { get => _nameButton; set => this.RaiseAndSetIfChanged(ref _nameButton, value); }
 
         public AddChangeTeacherVM() 
         {
             _newTeacher = new Teacher() { 
                 Gender = new Gender()
             };
+            NameButton = "Добавить";
         }
         public AddChangeTeacherVM(int idTeacher)
         {
@@ -42,6 +45,7 @@ namespace TeacherDatabase.ViewModels
             .Include(x => x.TeachersSubjects).ThenInclude(x => x.Subject)
             .FirstOrDefault(x => x.TeacherId == idTeacher);
             TeachersCourses = NewTeacher.TeachersCourses.ToList();
+            NameButton = "Сохранить";
         }
 
         public void AddTeacher() {

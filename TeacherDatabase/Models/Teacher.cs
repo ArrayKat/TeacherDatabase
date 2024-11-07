@@ -15,7 +15,7 @@ public partial class Teacher
 
     public int? GenderId { get; set; }
 
-    public DateOnly BirthDate { get; set; }
+    public DateTime BirthDate { get; set; }
 
     public int? Experience { get; set; }
 
