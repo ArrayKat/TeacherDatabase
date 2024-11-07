@@ -1,0 +1,44 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="TeacherDatabase.AddChangeTeacher"		 
+			 xmlns:vm="using:TeacherDatabase.ViewModels"
+			 x:DataType ="vm:AddChangeTeacherVM">
+
+	<Grid>
+		<ScrollViewer>
+			<StackPanel Margin="30">
+				<TextBlock Text="Личная информация: " Foreground="Brown"/>
+				<TextBlock Text="Введите фамилию:"/>
+				<TextBox Text="{Binding NewTeacher.Surname}"/>
+				<TextBlock Text="Введите имя:"/>
+				<TextBox Text="{Binding NewTeacher.Name}"/>
+				<TextBlock Text="Введите отчество:"/>
+				<TextBox Text="{Binding NewTeacher.Patronymic}"/>
+				<TextBlock Text="Выберите пол: "/>
+				<ComboBox ItemsSource="{Binding Gender}" SelectedItem="{Binding NewTeacher.Gender}">
+					<ComboBox.ItemTemplate>
+						<DataTemplate>
+							<TextBlock Text="{Binding Gender1}"/>
+						</DataTemplate>
+					</ComboBox.ItemTemplate>
+				</ComboBox>
+				<TextBlock Text="Выберите дату рождения: "/>
+				<DatePicker/>
+				<TextBlock Text="Введите стаж работы:"/>
+				<TextBox Text=""/>
+
+				<TextBlock Text="Контактная информация:" Foreground="Brown"/>
+				<TextBlock Text="Введите почту:"/>
+				<TextBox Text=""/>
+				<TextBlock Text="Введите телефон:"/>
+				<TextBox Text=""/>
+				<Button Command="{Binding AddTeacher}">Добавить</Button>
+			</StackPanel>
+		</ScrollViewer>
+	</Grid>
+	
+	
+</UserControl>
