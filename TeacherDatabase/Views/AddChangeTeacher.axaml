@@ -39,6 +39,24 @@
 				<TextBox Text="{Binding NewTeacher.Email}"/>
 				<TextBlock Text="Телефон:"/>
 				<TextBox Text="{Binding NewTeacher.Phone}"/>
+
+				<TextBlock Text="Выберите курсы:"/>
+				<ComboBox ItemsSource="{Binding Courses}" SelectedValue="">
+					<ComboBox.ItemTemplate>
+						<DataTemplate>
+							<TextBlock Text="{Binding CourseName}"/>
+						</DataTemplate>
+					</ComboBox.ItemTemplate>
+				</ComboBox>
+
+				<ListBox>
+					<ListBox.ItemTemplate>
+						<DataTemplate>
+							<TextBlock Text=""/>
+							<Button Command="" Content="Х"/>
+						</DataTemplate>
+					</ListBox.ItemTemplate>
+				</ListBox>
 				
 				<Button Content="{Binding NameButton}" Command="{Binding AddTeacher}"/>
 				

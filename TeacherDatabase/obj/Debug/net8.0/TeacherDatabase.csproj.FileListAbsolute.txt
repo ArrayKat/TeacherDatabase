@@ -306,3 +306,6 @@ C:\Users\колиниченкоес\source\repos\TeacherDatabase\TeacherDatabase
 C:\Users\колиниченкоес\source\repos\TeacherDatabase\TeacherDatabase\obj\Debug\net8.0\TeacherD.60505F73.Up2Date
 C:\Users\колиниченкоес\source\repos\TeacherDatabase\TeacherDatabase\obj\Debug\net8.0\TeacherDatabase.genruntimeconfig.cache
 C:\Users\колиниченкоес\source\repos\TeacherDatabase\TeacherDatabase\obj\Debug\net8.0\ref\TeacherDatabase.dll
+C:\Users\колиниченкоес\source\repos\TeacherDatabase\TeacherDatabase\obj\Debug\net8.0\TeacherDatabase.dll
+C:\Users\колиниченкоес\source\repos\TeacherDatabase\TeacherDatabase\obj\Debug\net8.0\refint\TeacherDatabase.dll
+C:\Users\колиниченкоес\source\repos\TeacherDatabase\TeacherDatabase\obj\Debug\net8.0\TeacherDatabase.pdb
