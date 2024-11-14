@@ -25,6 +25,9 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [C:/Users/колиниченкоес/source/repos/TeacherDatabase/TeacherDatabase/Views/AddChangeTeacher.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Users/колиниченкоес/source/repos/TeacherDatabase/TeacherDatabase/Views/AddCourse.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/колиниченкоес/source/repos/TeacherDatabase/TeacherDatabase/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 

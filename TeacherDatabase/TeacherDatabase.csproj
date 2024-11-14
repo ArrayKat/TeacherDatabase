@@ -13,6 +13,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Assets\free-icon-delete-14360493.png" />
+    <None Remove="Assets\free-icon-delete-6711573.png" />
+    <None Remove="Assets\free-icon-trash-812853.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Avalonia" Version="11.1.4" />
     <PackageReference Include="Avalonia.Controls.ItemsRepeater" Version="11.1.4" />
     <PackageReference Include="Avalonia.Desktop" Version="11.1.4" />
@@ -21,6 +27,7 @@
     <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
     <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.1.4" />
     <PackageReference Include="Avalonia.ReactiveUI" Version="11.1.4" />
+    <PackageReference Include="MessageBox.Avalonia" Version="3.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

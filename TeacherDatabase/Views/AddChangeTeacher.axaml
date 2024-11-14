@@ -41,19 +41,51 @@
 				<TextBox Text="{Binding NewTeacher.Phone}"/>
 
 				<TextBlock Text="Выберите курсы:"/>
-				<ComboBox ItemsSource="{Binding Courses}" SelectedValue="">
+				<ComboBox ItemsSource="{Binding Courses}" SelectedValue="{Binding SelectedCourse}">
 					<ComboBox.ItemTemplate>
 						<DataTemplate>
 							<TextBlock Text="{Binding CourseName}"/>
 						</DataTemplate>
 					</ComboBox.ItemTemplate>
 				</ComboBox>
+				<Button Content="Создать курс" Command="{Binding GoToPageAddcourse}"/>
 
-				<ListBox>
+				<ListBox ItemsSource="{Binding TeachersCourses}">
 					<ListBox.ItemTemplate>
 						<DataTemplate>
-							<TextBlock Text=""/>
-							<Button Command="" Content="Х"/>
+							<StackPanel Orientation="Horizontal">
+								<Button Width="25" Height="25" Command="{Binding $parent[UserControl].((vm:AddChangeTeacherVM)DataContext).DeleteCourse}"  CommandParameter="{Binding}">
+									<Button.Background>
+										<ImageBrush Source="/Assets/free-icon-delete-14360493.png"/>
+									</Button.Background>
+								</Button>
+								<TextBlock Text="{Binding Course.CourseName}" Margin="10 5"/>
+							</StackPanel>
+						</DataTemplate>
+					</ListBox.ItemTemplate>
+				</ListBox>
+
+				<TextBlock Text="Выберите предметы:"/>
+				<ComboBox ItemsSource="{Binding Subjects}" SelectedValue="{Binding SelectedSubject}">
+					<ComboBox.ItemTemplate>
+						<DataTemplate>
+							<TextBlock Text="{Binding SubjectName}"/>
+						</DataTemplate>
+					</ComboBox.ItemTemplate>
+				</ComboBox>
+
+				<ListBox ItemsSource="{Binding TeachersSubjects}">
+					<ListBox.ItemTemplate>
+						<DataTemplate>
+							<StackPanel Orientation="Horizontal">
+								<Button Width="25" Height="25" Command="{Binding $parent[UserControl].((vm:AddChangeTeacherVM)DataContext).DeleteSubject}"  CommandParameter="{Binding}">
+
+									<Button.Background>
+										<ImageBrush Source="/Assets/free-icon-delete-6711573.png"/>
+									</Button.Background>
+								</Button>
+								<TextBlock Text="{Binding Subject.SubjectName}" Margin="10 5"/>
+							</StackPanel>
 						</DataTemplate>
 					</ListBox.ItemTemplate>
 				</ListBox>

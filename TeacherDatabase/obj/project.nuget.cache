@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8PHZZ/yYzLc=",
+  "dgSpecHash": "WYhCCtO0Wc8=",
   "success": true,
   "projectFilePath": "C:\\Users\\колиниченкоес\\source\\repos\\TeacherDatabase\\TeacherDatabase\\TeacherDatabase.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\колиниченкоес\\.nuget\\packages\\avalonia.themes.simple\\11.1.4\\avalonia.themes.simple.11.1.4.nupkg.sha512",
     "C:\\Users\\колиниченкоес\\.nuget\\packages\\avalonia.win32\\11.1.4\\avalonia.win32.11.1.4.nupkg.sha512",
     "C:\\Users\\колиниченкоес\\.nuget\\packages\\avalonia.x11\\11.1.4\\avalonia.x11.11.1.4.nupkg.sha512",
+    "C:\\Users\\колиниченкоес\\.nuget\\packages\\dialoghost.avalonia\\0.8.1\\dialoghost.avalonia.0.8.1.nupkg.sha512",
     "C:\\Users\\колиниченкоес\\.nuget\\packages\\dynamicdata\\7.9.5\\dynamicdata.7.9.5.nupkg.sha512",
     "C:\\Users\\колиниченкоес\\.nuget\\packages\\harfbuzzsharp\\7.3.0.2\\harfbuzzsharp.7.3.0.2.nupkg.sha512",
     "C:\\Users\\колиниченкоес\\.nuget\\packages\\harfbuzzsharp.nativeassets.linux\\7.3.0.2\\harfbuzzsharp.nativeassets.linux.7.3.0.2.nupkg.sha512",
@@ -29,6 +30,7 @@
     "C:\\Users\\колиниченкоес\\.nuget\\packages\\harfbuzzsharp.nativeassets.webassembly\\7.3.0.2\\harfbuzzsharp.nativeassets.webassembly.7.3.0.2.nupkg.sha512",
     "C:\\Users\\колиниченкоес\\.nuget\\packages\\harfbuzzsharp.nativeassets.win32\\7.3.0.2\\harfbuzzsharp.nativeassets.win32.7.3.0.2.nupkg.sha512",
     "C:\\Users\\колиниченкоес\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\колиниченкоес\\.nuget\\packages\\messagebox.avalonia\\3.2.0\\messagebox.avalonia.3.2.0.nupkg.sha512",
     "C:\\Users\\колиниченкоес\\.nuget\\packages\\microcom.runtime\\0.11.0\\microcom.runtime.0.11.0.nupkg.sha512",
     "C:\\Users\\колиниченкоес\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\колиниченкоес\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
