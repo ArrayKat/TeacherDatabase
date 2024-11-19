@@ -131,6 +131,12 @@ namespace TeacherDatabase.ViewModels
         public void GoToPageAddcourse() {
             MainWindowViewModel.Instance.PageContent =new AddCourse();
         }
-
+        public void GoToPageAddSubject()
+        {
+            MainWindowViewModel.Instance.PageContent = new AddSubject();
+        }
+        public void ToBack() { 
+            MainWindowViewModel.Instance.PageContent = new ShowTeacher();
+        }
     }
 }

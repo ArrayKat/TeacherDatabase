@@ -38,5 +38,9 @@ namespace TeacherDatabase.ViewModels
 
         }
 
+        public void ToBack() { 
+            MainWindowViewModel.Instance.PageContent = new AddChangeTeacher();
+        }
+
     }
 }

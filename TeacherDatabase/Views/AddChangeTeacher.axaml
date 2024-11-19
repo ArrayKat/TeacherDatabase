@@ -14,7 +14,8 @@
 	<Grid>
 		<ScrollViewer>
 			<StackPanel Margin="30">
-				<TextBlock Text="Личная информация: " Foreground="Brown"/>
+				<Button Margin="0,0,0,15" Command="{Binding ToBack}">Назад</Button>
+				<TextBlock Text="Личная информация: " Foreground="Brown" FontWeight="Bold"/>
 				<TextBlock Text="Фамилия:"/>
 				<TextBox Text="{Binding NewTeacher.Surname}"/>
 				<TextBlock Text="Имя:"/>
@@ -34,21 +35,24 @@
 				<TextBlock Text="Стаж работы (мес.):"/>
 				<TextBox Text="{Binding NewTeacher.Experience}"/>
 
-				<TextBlock Text="Контактная информация:" Foreground="Brown"/>
+				<TextBlock Text="Контактная информация:" Foreground="Brown" FontWeight="Bold"/>
 				<TextBlock Text="Почта:"/>
 				<TextBox Text="{Binding NewTeacher.Email}"/>
 				<TextBlock Text="Телефон:"/>
 				<TextBox Text="{Binding NewTeacher.Phone}"/>
 
-				<TextBlock Text="Выберите курсы:"/>
-				<ComboBox ItemsSource="{Binding Courses}" SelectedValue="{Binding SelectedCourse}">
-					<ComboBox.ItemTemplate>
-						<DataTemplate>
-							<TextBlock Text="{Binding CourseName}"/>
-						</DataTemplate>
-					</ComboBox.ItemTemplate>
-				</ComboBox>
-				<Button Content="Создать курс" Command="{Binding GoToPageAddcourse}"/>
+				<TextBlock Text="Курсы:" Foreground="Brown" FontWeight="Bold"/>
+				<StackPanel Orientation="Horizontal" Margin="0, 10">
+					<ComboBox ItemsSource="{Binding Courses}" SelectedValue="{Binding SelectedCourse}">
+						<ComboBox.ItemTemplate>
+							<DataTemplate>
+								<TextBlock Text="{Binding CourseName}"/>
+							</DataTemplate>
+						</ComboBox.ItemTemplate>
+					</ComboBox>
+					<Button Margin="7" Content="Создать курс" Command="{Binding GoToPageAddcourse}"/>
+				</StackPanel>
+				
 
 				<ListBox ItemsSource="{Binding TeachersCourses}">
 					<ListBox.ItemTemplate>
@@ -65,14 +69,20 @@
 					</ListBox.ItemTemplate>
 				</ListBox>
 
-				<TextBlock Text="Выберите предметы:"/>
-				<ComboBox ItemsSource="{Binding Subjects}" SelectedValue="{Binding SelectedSubject}">
-					<ComboBox.ItemTemplate>
-						<DataTemplate>
-							<TextBlock Text="{Binding SubjectName}"/>
-						</DataTemplate>
-					</ComboBox.ItemTemplate>
-				</ComboBox>
+				<TextBlock Text="Предметы:" Foreground="Brown" FontWeight="Bold"/>
+				
+
+
+				<StackPanel Orientation="Horizontal" Margin="0, 10">
+					<ComboBox ItemsSource="{Binding Subjects}" SelectedValue="{Binding SelectedSubject}">
+						<ComboBox.ItemTemplate>
+							<DataTemplate>
+								<TextBlock Text="{Binding SubjectName}"/>
+							</DataTemplate>
+						</ComboBox.ItemTemplate>
+					</ComboBox>
+					<Button Margin="7" Content="Создать предмет" Command="{Binding GoToPageAddSubject}"/>
+				</StackPanel>
 
 				<ListBox ItemsSource="{Binding TeachersSubjects}">
 					<ListBox.ItemTemplate>
@@ -81,7 +91,7 @@
 								<Button Width="25" Height="25" Command="{Binding $parent[UserControl].((vm:AddChangeTeacherVM)DataContext).DeleteSubject}"  CommandParameter="{Binding}">
 
 									<Button.Background>
-										<ImageBrush Source="/Assets/free-icon-delete-6711573.png"/>
+										<ImageBrush Source="/Assets/free-icon-delete-14360493.png"/>
 									</Button.Background>
 								</Button>
 								<TextBlock Text="{Binding Subject.SubjectName}" Margin="10 5"/>
@@ -90,7 +100,7 @@
 					</ListBox.ItemTemplate>
 				</ListBox>
 				
-				<Button Content="{Binding NameButton}" Command="{Binding AddTeacher}"/>
+				<Button Margin="0,15" Content="{Binding NameButton}" Command="{Binding AddTeacher}"/>
 				
 			</StackPanel>
 		</ScrollViewer>

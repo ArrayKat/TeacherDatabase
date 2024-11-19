@@ -308,3 +308,5 @@ C:\Users\колиниченкоес\source\repos\TeacherDatabase\TeacherDatabase
 C:\Users\колиниченкоес\source\repos\TeacherDatabase\TeacherDatabase\obj\Debug\net8.0\ref\TeacherDatabase.dll
 C:\Users\колиниченкоес\source\repos\TeacherDatabase\TeacherDatabase\bin\Debug\net8.0\DialogHost.Avalonia.dll
 C:\Users\колиниченкоес\source\repos\TeacherDatabase\TeacherDatabase\bin\Debug\net8.0\MsBox.Avalonia.dll
+C:\Users\Katya\source\repos\TeacherDatabase\TeacherDatabase\bin\Debug\net8.0\DialogHost.Avalonia.dll
+C:\Users\Katya\source\repos\TeacherDatabase\TeacherDatabase\bin\Debug\net8.0\MsBox.Avalonia.dll

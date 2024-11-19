@@ -16,7 +16,7 @@
 			<Button Margin="5 0" Command="">Сортировать</Button>
 		</StackPanel>
 
-		<ListBox Grid.Row="1" ItemsSource="{Binding TeacherList}" SelectionMode="Single">
+		<ListBox Grid.Row="1" ItemsSource="{Binding TeacherList}" SelectionMode="Single" >
 			<ListBox.ItemTemplate>
 				<DataTemplate>
 					<Border BorderBrush="Brown" BorderThickness="2">
@@ -30,7 +30,7 @@
 								</Grid.ColumnDefinitions>
 
 								<!-- Личная информация -->
-								<StackPanel Grid.Column="0" Orientation="Vertical">
+								<StackPanel Grid.Column="0" Orientation="Vertical" >
 									<TextBlock Text="Личная информация:" Foreground="Brown"/>
 									<TextBlock Text="{Binding FIO}"/>
 									<StackPanel Orientation="Horizontal">
@@ -39,7 +39,7 @@
 									</StackPanel>
 									<StackPanel Orientation="Horizontal">
 										<TextBlock Text="Дата рождения: "/>
-										<TextBlock Text="{Binding BirthDate}"/>
+										<TextBlock Text="{Binding BirthDate, StringFormat='{}{0:dd.MM.yyyy}'}"/>
 										<TextBlock Text=" года"/>
 									</StackPanel>
 									<StackPanel Orientation="Horizontal">

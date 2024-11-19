@@ -13,6 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <AvaloniaResource Remove="Assets\Styles.axaml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Assets\free-icon-delete-14360493.png" />
     <None Remove="Assets\free-icon-delete-6711573.png" />
     <None Remove="Assets\free-icon-trash-812853.png" />
@@ -33,5 +37,9 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Assets\Styles.axaml" />
   </ItemGroup>
 </Project>

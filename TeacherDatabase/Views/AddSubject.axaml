@@ -3,20 +3,16 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             x:Class="TeacherDatabase.AddCourse"
-			 
+             x:Class="TeacherDatabase.AddSubject"
 			 xmlns:vm="using:TeacherDatabase.ViewModels"
-			 x:DataType ="vm:AddCourseVM"
+			 x:DataType ="vm:AddSubjectVM"
 			 >
-
 	<Grid>
 		<StackPanel Margin="20">
 			<Button Command="{Binding ToBack}">Назад</Button>
-			<TextBlock Text="Введите название нового курса:" />
-			<TextBox Text="{Binding NameCourse}"/>
-			<TextBlock Text="Введите количество часов, которое занимает прохождение данного курса:" />
-			<TextBox Text="{Binding HourCourse}"/>
-			<Button Margin="0,10" Command="{Binding AddCourse}">Добавить курс</Button>
+			<TextBlock Text="Введите название нового предмета:" />
+			<TextBox Text="{Binding NameSubject}"/>
+			<Button Margin="0,10" Command="{Binding AddSubject}">Добавить предмет</Button>
 		</StackPanel>
 	</Grid>
 </UserControl>
