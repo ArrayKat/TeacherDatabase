@@ -8,42 +8,45 @@
 			    x:DataType="vm:ShowTeacherVM" >
 	<Grid>
 		<Grid.RowDefinitions>
-			<RowDefinition Height="*"/>
+			<RowDefinition Height="2*"/>
 			<RowDefinition Height="8*"/>
 		</Grid.RowDefinitions>
-		<StackPanel Margin="10 0" Grid.Row="0" Orientation="Horizontal">
-			<Button Margin="5 0" Command="{Binding ToPageAddTeacher}">Добавить преподавателя</Button>
-			<TextBox Text="{Binding SearchFIO}"/>
-			<CheckBox IsChecked="{Binding CheckTelephone}" Content="Только с номерами телефона"/>
+		<StackPanel Margin="10 0" Grid.Row="0" Orientation="Vertical">
 			<StackPanel Orientation="Horizontal">
-				<ComboBox SelectedIndex="{Binding SelectFilter}">
-					<ComboBoxItem>Без сортировки</ComboBoxItem>
-					<ComboBoxItem>По стажу</ComboBoxItem>
-					<ComboBoxItem>По фамилии</ComboBoxItem>
-					<ComboBoxItem>По общему количеству часов</ComboBoxItem>
-				</ComboBox>
-				<StackPanel IsVisible="{Binding IsVisiblePanel}">
-					<RadioButton Content="По возрастанию" IsChecked="{Binding FilterUp}" />
-					<RadioButton Content="По убыванию" IsChecked="{Binding !FilterUp}" />
-				</StackPanel>
+				<Button Margin="5 0" Command="{Binding ToPageAddTeacher}" FontSize="18">Добавить преподавателя</Button>
+				<TextBox Text="{Binding SearchFIO}" Watermark="Введите ФИО преподавателя" Width="330" Height="40" Margin="10" FontSize="18"/>
+				<CheckBox Margin="5" IsChecked="{Binding CheckTelephone}" Content="Только с номерами телефона"/>
 			</StackPanel>
-			<StackPanel Orientation="Horizontal">
-				<ComboBox ItemsSource="{Binding SubjectsList}" SelectedItem="{Binding SelectedSubject}">
+			<StackPanel Orientation="Horizontal" Margin="7">
+				<ComboBox Margin="7 0" ItemsSource="{Binding SubjectsList}" SelectedItem="{Binding SelectedSubject}">
 					<ComboBox.ItemTemplate>
 						<DataTemplate>
 							<TextBlock Text="{Binding SubjectName}"/>
 						</DataTemplate>
 					</ComboBox.ItemTemplate>
 				</ComboBox>
-				<ComboBox ItemsSource="{Binding GendersList}" SelectedItem="{Binding SelectGender}">
+				<ComboBox Margin="7 0" ItemsSource="{Binding GendersList}" SelectedItem="{Binding SelectGender}">
 					<ComboBox.ItemTemplate>
 						<DataTemplate>
 							<TextBlock Text="{Binding Gender1}"/>
 						</DataTemplate>
 					</ComboBox.ItemTemplate>
 				</ComboBox>
+
+				<ComboBox Margin="7 0" SelectedIndex="{Binding SelectFilter}">
+					<ComboBoxItem>Без сортировки</ComboBoxItem>
+					<ComboBoxItem>По стажу</ComboBoxItem>
+					<ComboBoxItem>По фамилии</ComboBoxItem>
+					<ComboBoxItem>По общему количеству часов</ComboBoxItem>
+				</ComboBox>
+				<StackPanel IsVisible="True" Orientation="Horizontal" Margin="5">
+					<RadioButton Content="По возрастанию" IsChecked="{Binding FilterUp}" />
+					<RadioButton Margin="20 0" Content="По убыванию" IsChecked="{Binding !FilterUp}" />
+				</StackPanel>
 			</StackPanel>
+				
 		</StackPanel>
+	
 
 		<ListBox Grid.Row="1" ItemsSource="{Binding TeacherList}" SelectionMode="Single" >
 			<ListBox.ItemTemplate>

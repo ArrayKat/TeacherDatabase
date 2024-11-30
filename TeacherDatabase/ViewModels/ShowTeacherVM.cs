@@ -88,7 +88,7 @@ namespace TeacherDatabase.ViewModels
         
 
         Gender _selectGender = null;
-        public Gender SelectGender { get => _selectGender; set { _selectGender = value; AllFilters(); } }
+        public Gender SelectGender { get => _selectGender == null ? _gendersList[0] : _selectGender; set { _selectGender = value; AllFilters(); } }
 
         void AllFilters() {
             TeacherList = MainWindowViewModel.myConnection.Teachers

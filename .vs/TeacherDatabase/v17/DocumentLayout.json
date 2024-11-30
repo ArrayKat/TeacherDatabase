@@ -7,20 +7,8 @@
       "RelativeMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|solutionrelative:teacherdatabase\\views\\showteacher.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|c:\\users\\katty\\desktop\\teacherdatabase\\teacherdatabase\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|solutionrelative:teacherdatabase\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|c:\\users\\katty\\desktop\\teacherdatabase\\teacherdatabase\\viewmodels\\showteachervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|solutionrelative:teacherdatabase\\viewmodels\\showteachervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|c:\\users\\katty\\desktop\\teacherdatabase\\teacherdatabase\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|solutionrelative:teacherdatabase\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|c:\\users\\katty\\desktop\\teacherdatabase\\teacherdatabase\\models\\partialteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|solutionrelative:teacherdatabase\\models\\partialteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,59 +37,20 @@
               "ToolTip": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\Views\\ShowTeacher.axaml",
               "RelativeToolTip": "TeacherDatabase\\Views\\ShowTeacher.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-30T08:29:31.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ShowTeacherVM.cs",
-              "DocumentMoniker": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\ViewModels\\ShowTeacherVM.cs",
-              "RelativeDocumentMoniker": "TeacherDatabase\\ViewModels\\ShowTeacherVM.cs",
-              "ToolTip": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\ViewModels\\ShowTeacherVM.cs",
-              "RelativeToolTip": "TeacherDatabase\\ViewModels\\ShowTeacherVM.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAwwFoAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T08:31:10.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PartialTeacher.cs",
-              "DocumentMoniker": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\Models\\PartialTeacher.cs",
-              "RelativeDocumentMoniker": "TeacherDatabase\\Models\\PartialTeacher.cs",
-              "ToolTip": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\Models\\PartialTeacher.cs",
-              "RelativeToolTip": "TeacherDatabase\\Models\\PartialTeacher.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAYwAwAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T10:44:42.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Subject.cs",
-              "DocumentMoniker": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\Models\\Subject.cs",
-              "RelativeDocumentMoniker": "TeacherDatabase\\Models\\Subject.cs",
-              "ToolTip": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\Models\\Subject.cs",
-              "RelativeToolTip": "TeacherDatabase\\Models\\Subject.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T11:40:22.865Z",
+              "WhenOpened": "2024-11-30T12:46:30.358Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Gender.cs",
-              "DocumentMoniker": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\Models\\Gender.cs",
-              "RelativeDocumentMoniker": "TeacherDatabase\\Models\\Gender.cs",
-              "ToolTip": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\Models\\Gender.cs",
-              "RelativeToolTip": "TeacherDatabase\\Models\\Gender.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
+              "Title": "ShowTeacherVM.cs",
+              "DocumentMoniker": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\ViewModels\\ShowTeacherVM.cs",
+              "RelativeDocumentMoniker": "TeacherDatabase\\ViewModels\\ShowTeacherVM.cs",
+              "ToolTip": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\ViewModels\\ShowTeacherVM.cs",
+              "RelativeToolTip": "TeacherDatabase\\ViewModels\\ShowTeacherVM.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAwwF0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T12:41:52.741Z",
+              "WhenOpened": "2024-11-30T12:59:08.116Z",
               "EditorCaption": ""
             }
           ]
