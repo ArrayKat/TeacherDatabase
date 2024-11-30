@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\TeacherDatabase\\",
+  "WorkspaceRootPath": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|c:\\users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\teacherdatabase\\teacherdatabase\\viewmodels\\addcoursevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|solutionrelative:teacherdatabase\\viewmodels\\addcoursevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|c:\\users\\katty\\desktop\\teacherdatabase\\teacherdatabase\\views\\showteacher.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|solutionrelative:teacherdatabase\\views\\showteacher.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|c:\\users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\teacherdatabase\\teacherdatabase\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|solutionrelative:teacherdatabase\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|c:\\users\\katty\\desktop\\teacherdatabase\\teacherdatabase\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|solutionrelative:teacherdatabase\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|c:\\users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\teacherdatabase\\teacherdatabase\\viewmodels\\addchangeteachervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|solutionrelative:teacherdatabase\\viewmodels\\addchangeteachervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|c:\\users\\katty\\desktop\\teacherdatabase\\teacherdatabase\\viewmodels\\showteachervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|solutionrelative:teacherdatabase\\viewmodels\\showteachervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|c:\\users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\teacherdatabase\\teacherdatabase\\views\\addchangeteacher.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|solutionrelative:teacherdatabase\\views\\addchangeteacher.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|c:\\users\\katty\\desktop\\teacherdatabase\\teacherdatabase\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|solutionrelative:teacherdatabase\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|c:\\users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\teacherdatabase\\teacherdatabase\\views\\addcourse.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|solutionrelative:teacherdatabase\\views\\addcourse.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|c:\\users\\katty\\desktop\\teacherdatabase\\teacherdatabase\\models\\partialteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E1044D-887B-4FBB-98AD-06DB7A0962A1}|TeacherDatabase\\TeacherDatabase.csproj|solutionrelative:teacherdatabase\\models\\partialteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +30,78 @@
       "DocumentGroups": [
         {
           "DockedWidth": 217,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddChangeTeacher.axaml",
-              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\TeacherDatabase\\TeacherDatabase\\Views\\AddChangeTeacher.axaml",
-              "RelativeDocumentMoniker": "TeacherDatabase\\Views\\AddChangeTeacher.axaml",
-              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\TeacherDatabase\\TeacherDatabase\\Views\\AddChangeTeacher.axaml",
-              "RelativeToolTip": "TeacherDatabase\\Views\\AddChangeTeacher.axaml",
+              "DocumentIndex": 0,
+              "Title": "ShowTeacher.axaml",
+              "DocumentMoniker": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\Views\\ShowTeacher.axaml",
+              "RelativeDocumentMoniker": "TeacherDatabase\\Views\\ShowTeacher.axaml",
+              "ToolTip": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\Views\\ShowTeacher.axaml",
+              "RelativeToolTip": "TeacherDatabase\\Views\\ShowTeacher.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-14T10:09:17.522Z",
+              "WhenOpened": "2024-11-30T08:29:31.104Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AddChangeTeacherVM.cs",
-              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\TeacherDatabase\\TeacherDatabase\\ViewModels\\AddChangeTeacherVM.cs",
-              "RelativeDocumentMoniker": "TeacherDatabase\\ViewModels\\AddChangeTeacherVM.cs",
-              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\TeacherDatabase\\TeacherDatabase\\ViewModels\\AddChangeTeacherVM.cs",
-              "RelativeToolTip": "TeacherDatabase\\ViewModels\\AddChangeTeacherVM.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAUwIIAAAAlAAAAAAAAAA==",
+              "Title": "ShowTeacherVM.cs",
+              "DocumentMoniker": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\ViewModels\\ShowTeacherVM.cs",
+              "RelativeDocumentMoniker": "TeacherDatabase\\ViewModels\\ShowTeacherVM.cs",
+              "ToolTip": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\ViewModels\\ShowTeacherVM.cs",
+              "RelativeToolTip": "TeacherDatabase\\ViewModels\\ShowTeacherVM.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAwwFoAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T10:07:23.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\TeacherDatabase\\TeacherDatabase\\Models\\Course.cs",
-              "RelativeDocumentMoniker": "TeacherDatabase\\Models\\Course.cs",
-              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\TeacherDatabase\\TeacherDatabase\\Models\\Course.cs",
-              "RelativeToolTip": "TeacherDatabase\\Models\\Course.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T10:01:40.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddCourseVM.cs",
-              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\TeacherDatabase\\TeacherDatabase\\ViewModels\\AddCourseVM.cs",
-              "RelativeDocumentMoniker": "TeacherDatabase\\ViewModels\\AddCourseVM.cs",
-              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\TeacherDatabase\\TeacherDatabase\\ViewModels\\AddCourseVM.cs",
-              "RelativeToolTip": "TeacherDatabase\\ViewModels\\AddCourseVM.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:57:13.986Z",
+              "WhenOpened": "2024-11-30T08:31:10.028Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AddCourse.axaml",
-              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\TeacherDatabase\\TeacherDatabase\\Views\\AddCourse.axaml",
-              "RelativeDocumentMoniker": "TeacherDatabase\\Views\\AddCourse.axaml",
-              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\TeacherDatabase\\TeacherDatabase\\Views\\AddCourse.axaml",
-              "RelativeToolTip": "TeacherDatabase\\Views\\AddCourse.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-14T09:57:12.814Z",
+              "Title": "PartialTeacher.cs",
+              "DocumentMoniker": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\Models\\PartialTeacher.cs",
+              "RelativeDocumentMoniker": "TeacherDatabase\\Models\\PartialTeacher.cs",
+              "ToolTip": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\Models\\PartialTeacher.cs",
+              "RelativeToolTip": "TeacherDatabase\\Models\\PartialTeacher.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwAwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T10:44:42.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\Models\\Subject.cs",
+              "RelativeDocumentMoniker": "TeacherDatabase\\Models\\Subject.cs",
+              "ToolTip": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\Models\\Subject.cs",
+              "RelativeToolTip": "TeacherDatabase\\Models\\Subject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T11:40:22.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Gender.cs",
+              "DocumentMoniker": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\Models\\Gender.cs",
+              "RelativeDocumentMoniker": "TeacherDatabase\\Models\\Gender.cs",
+              "ToolTip": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\Models\\Gender.cs",
+              "RelativeToolTip": "TeacherDatabase\\Models\\Gender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T12:41:52.741Z",
               "EditorCaption": ""
             }
           ]

@@ -3874,24 +3874,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Katya\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Katty\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Katya\\source\\repos\\TeacherDatabase\\TeacherDatabase\\TeacherDatabase.csproj",
+      "projectUniqueName": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\TeacherDatabase.csproj",
       "projectName": "TeacherDatabase",
-      "projectPath": "C:\\Users\\Katya\\source\\repos\\TeacherDatabase\\TeacherDatabase\\TeacherDatabase.csproj",
-      "packagesPath": "C:\\Users\\Katya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Katya\\source\\repos\\TeacherDatabase\\TeacherDatabase\\obj\\",
+      "projectPath": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\TeacherDatabase.csproj",
+      "packagesPath": "C:\\Users\\Katty\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Katty\\Desktop\\TeacherDatabase\\TeacherDatabase\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Katya\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Katty\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3913,7 +3908,9 @@
         ]
       },
       "restoreAuditProperties": {
-        "enableAudit": "default"
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3979,7 +3976,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

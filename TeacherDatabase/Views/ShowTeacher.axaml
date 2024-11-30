@@ -13,7 +13,36 @@
 		</Grid.RowDefinitions>
 		<StackPanel Margin="10 0" Grid.Row="0" Orientation="Horizontal">
 			<Button Margin="5 0" Command="{Binding ToPageAddTeacher}">Добавить преподавателя</Button>
-			<Button Margin="5 0" Command="">Сортировать</Button>
+			<TextBox Text="{Binding SearchFIO}"/>
+			<CheckBox IsChecked="{Binding CheckTelephone}" Content="Только с номерами телефона"/>
+			<StackPanel Orientation="Horizontal">
+				<ComboBox SelectedIndex="{Binding SelectFilter}">
+					<ComboBoxItem>Без сортировки</ComboBoxItem>
+					<ComboBoxItem>По стажу</ComboBoxItem>
+					<ComboBoxItem>По фамилии</ComboBoxItem>
+					<ComboBoxItem>По общему количеству часов</ComboBoxItem>
+				</ComboBox>
+				<StackPanel IsVisible="{Binding IsVisiblePanel}">
+					<RadioButton Content="По возрастанию" IsChecked="{Binding FilterUp}" />
+					<RadioButton Content="По убыванию" IsChecked="{Binding !FilterUp}" />
+				</StackPanel>
+			</StackPanel>
+			<StackPanel Orientation="Horizontal">
+				<ComboBox ItemsSource="{Binding SubjectsList}" SelectedItem="{Binding SelectedSubject}">
+					<ComboBox.ItemTemplate>
+						<DataTemplate>
+							<TextBlock Text="{Binding SubjectName}"/>
+						</DataTemplate>
+					</ComboBox.ItemTemplate>
+				</ComboBox>
+				<ComboBox ItemsSource="{Binding GendersList}" SelectedItem="{Binding SelectGender}">
+					<ComboBox.ItemTemplate>
+						<DataTemplate>
+							<TextBlock Text="{Binding Gender1}"/>
+						</DataTemplate>
+					</ComboBox.ItemTemplate>
+				</ComboBox>
+			</StackPanel>
 		</StackPanel>
 
 		<ListBox Grid.Row="1" ItemsSource="{Binding TeacherList}" SelectionMode="Single" >
